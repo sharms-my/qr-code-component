@@ -1,0 +1,44 @@
+body
+{
+    background-color: #D5E1EF;
+    font-family: Outfit;
+    color: #7D889E;
+    font-size: 15px;
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    place-items: center;
+    h1
+    {
+        color: #1F314F;
+        font-size: 22px;
+        margin: 10px;
+    }
+    .container
+    {
+        background-color: #ffffff;
+        height: 497px;
+        width: 320px;
+        padding: 15px;
+        border-radius: 15px;
+        &-image-wrapper
+        {
+            border-radius: 15px;
+            overflow:hidden;
+            img
+            {
+                width: 100%;
+                display: block;
+            }
+        }
+        &-content-wrapper
+        {
+            text-align: center;
+            padding: 10px 25px;
+            p 
+            {
+                margin: 0 10px;
+            }
+        }
+    }
+}
